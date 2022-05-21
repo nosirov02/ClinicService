@@ -30,8 +30,9 @@ public class DoctorController {
     @PutMapping("/{id}")
     public ResponseEntity<?> update(@PathVariable("id") Integer id,
                                     @RequestBody @Valid DoctorDto doctor){
-        boolean result = doctorService.update(id,doctor);
-        return ResponseEntity.ok(result);
+
+        boolean javob = doctorService.update(id,doctor);
+        return ResponseEntity.ok(javob);
     }
 
     @DeleteMapping("/{id}")
