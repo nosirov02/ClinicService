@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import javax.print.Doc;
 import javax.validation.Valid;
 
+//Hello asadbek
+
 @RestController
 @RequestMapping("/doctor")
 public class DoctorController {
